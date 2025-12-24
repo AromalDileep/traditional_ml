@@ -1,0 +1,82 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==============================
+# Virtual Environments
+# ==============================
+.venv/
+venv/
+env/
+.conda/
+.conda_env/
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Data (Large / Generated)
+# ==============================
+data/processed/*
+data/raw/*
+data/external/*
+
+# Keep folder structure
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+!data/external/.gitkeep
+
+# ==============================
+# Models & Artifacts
+# ==============================
+models/saved/*
+!models/saved/.gitkeep
+
+# ==============================
+# Outputs
+# ==============================
+outputs/figures/*
+outputs/tables/*
+outputs/reports/*
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/reports/.gitkeep
+
+# ==============================
+# Logs / Temporary
+# ==============================
+*.log
+*.tmp
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.*
+
+# ==============================
+# Misc
+# ==============================
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
